@@ -15,7 +15,7 @@ navToggle.addEventListener(
 window.addEventListener(
   "resize",
   function () {
-    if (document.body.clientWidth > 767) {
+    if (document.body.clientWidth > 767.9) {
       nav.classList.remove("open");
       navIcon.forEach((icon) => {
         icon.classList.remove("hidden");

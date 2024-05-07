@@ -87,6 +87,7 @@ h1 {
 }
 
 .nav-bar.open {
+	left: 0%;
 }
 
 .hidden {
@@ -169,25 +170,27 @@ h1 {
 	.section1 {
 		width: 100%;
 		background-size: contain;
+		overflow-x: hidden;
 	}
 
 	.header {
 		flex-direction: column;
 		align-items: flex-start;
+		position: relative;
 	}
 
 	.header-content h2 {
 		font-size: 7.553vw;
 	}
 
-
-
 	.nav-bar {
 		background: red;
 		height: 100%;
 		width: 100%;
 		overflow: hidden;
-		transition: 250ms height ease-in-out;
+		transition: 250ms all ease-in-out;
+		position: absolute;
+		left: 200%;
 	}
 
 	.login {

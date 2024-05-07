@@ -1,0 +1,196 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url("../fonts/Montserrat-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url("../fonts/Montserrat-Bold.ttf");
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Montserrat';
+	width: 100%;
+	max-width: 1920px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+.container {
+	width: 73%;
+	margin: 0 auto;
+}
+
+ul li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+button {
+	background: #23A6F0;
+	color: #ffffff;
+	font-size: 14px;
+	border: 1px #ffffff solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.section1 {
+	background-image: url("../images/img_background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header {
+	display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  align-items: center;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+.nav-toggle {
+	display: none;
+	position: absolute;
+	right: 1rem;
+	top: 1.5rem;
+	cursor: pointer;
+}
+
+.nav-toggle img {
+	width: 1.5rem;
+	transition: 300ms all ease;
+}
+
+.nav-toggle:hover img {
+	opacity: 0.6;
+}
+
+.open {
+	height: 100vh;
+}
+
+.hidden {
+	display: none;
+}
+
+.nav-bar {
+	padding: 2px 68px;
+	margin-right: 163px;
+}
+
+.nav-bar ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-bar a {
+	padding: 0 10px;
+	color: #000;
+	font-size: 14px;
+}
+
+.login {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link {
+	color:#23A6F0;
+	font-size: 14px;
+}
+
+.header-button {
+	margin-left: 42px;
+  padding: 18px 41px;
+}
+
+.header-content {
+	padding: 130px 0px;
+}
+
+.online-training {
+	color:#23A6F0;
+	font-size: 16px;
+}
+
+.header-content h2 {
+	font-size: 58px;
+	padding: 39px 0px 33px;
+	letter-spacing: -0.8px;
+	line-height: 80px;
+}
+
+.header-content p {
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	line-height: 30px;
+}
+
+.join-us, .learn-more {
+	margin-top: 37px;
+	padding: 17px 46px;
+	text-align: center;
+}
+
+.learn-more {
+	color: #23A6F0;
+	background: #ffffff;
+	border: 1px #23A6F0 solid;
+}
+
+/* i-pad */
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+	
+}
+
+/* mobile */
+@media screen and (max-width: 767.9px) {
+
+	.header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.nav-bar {
+		height: 0;
+		width: 100%;
+		overflow: hidden;
+		transition: 250ms height ease-in-out;
+	}
+
+	.login {
+		display: none;
+	}
+
+	li {
+		display: block;
+		text-align: center;
+		padding: 100px;
+	}
+
+	.nav-toggle {
+		display: block;
+	}
+}
+

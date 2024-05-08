@@ -273,19 +273,28 @@ h5 {
 }
 
 .section3-first-column::before {
-	content: url('../images/img_rectangle\ .svg');
 	position: absolute;
 	top: 69px;
 	right: -34px;
 	z-index: -1;
+	content: "";
+	width: 116px;
+	height: 136px;
+	border: 1px solid #B6D7FF;
+	background-color:  #B6D7FF;
 }
 
 .section3-first-column::after {
-	content: url('../images/img_ellipse.svg');
 	position: absolute;
 	bottom: 84px;
   left: -35px;
 	z-index: -1;
+	content: "";
+	width: 57px;
+	height: 59px;
+	border: 1px solid #FEB896;
+	border-radius: 30px;
+	background-color: #FEB896;
 }
 
 .section3-second-column {
@@ -415,11 +424,15 @@ h5 {
 .section3-first-column::before {
 	top: 1.391vw;
 	right: -4.656vw;
+	width: 9.063vw;
+	height: 10.625vw;
 }
 
 .section3-first-column::after {
 	bottom: 6.391vw;
 	left: -2.734vw;
+	width: 4.453vw;
+	height: 4.609vw;
 }
 
 .section3-second-column {
@@ -576,13 +589,17 @@ h5 {
 	}
 
 	.section3-first-column::before {
-		top: 18.4vw;
-		right: -9.067vw;
+		top: 21.4vw;
+		right: -4.067vw;
+		width: 9.063vw;
+		height: 10.625vw;
 	}
 
 	.section3-first-column::after {
-		top: 51.4vw;
-		left: -8.333vw;
+		bottom: 26.4vw;
+		left: -2.333vw;
+		width: 4.453vw;
+		height: 4.609vw;
 	}
 
 	.section3-second-column {

@@ -10,6 +10,12 @@ navToggle.addEventListener(
 		navIcon.forEach((icon) => {
 			icon.classList.toggle("hidden");
 		});
+		if(nav.classList.contains('open') ){
+			document.body.style.overflow = "hidden";		}
+		else{
+			document.body.style.overflow = "auto";	
+		}
+		
 });
 
 window.addEventListener(

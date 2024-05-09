@@ -315,6 +315,123 @@ h5 {
 	padding-bottom: 35px;
 }
 
+/* seciton4 */
+
+.section4 .container {
+	padding: 188px 2px;
+}
+.course-list {
+	display: flex;
+	padding: 113px 0;
+	justify-content: space-between;
+}
+
+.course-list li {
+	
+}
+
+.course-img {
+	width: 238px;
+	position: relative;
+	z-index: 99;
+}
+
+.sale {
+	background-color: #E74040;
+	border: 1px solid #E74040;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 9999;
+	width: 51px;
+	color: #ffffff;
+	height: 24px;
+	margin: 20px 0;
+	padding: 2px;
+	left: 15%;
+	align-items: center;
+	text-align: center;
+}
+
+.icon-card {
+	display: flex;
+	justify-content: space-between;
+	width: 140px;
+	position: absolute;
+	z-index: 99;
+	left: 17%;
+	margin: -68px 0;
+}
+
+.course-icon {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ffffff;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.hand-sale {
+	left: 33%;
+}
+
+.hand-icon {
+	left: 35%;
+}
+
+.note-sale {
+	left: 52%;
+}
+
+.note-icon {
+	left: 53%;
+}
+
+.woman-sale {
+	left: 70%;
+}
+
+.woman-icon {
+	left: 72%;
+}
+
+.course-btn {
+	border-radius: 100px;
+	padding: 15px 35px;
+  margin: 25px 0px;
+}
+
+.course-content {
+	padding: 23px;
+}
+
+.graphic-course {
+	padding: 18px 0 12px;
+	letter-spacing: 0px;
+}
+
+.sales-15 {
+	padding: 11px 28px 21px;
+}
+
+.course-flex {
+	display: flex;
+	padding: 35px 23px 0;
+	font-size: 12px;
+	justify-content: space-between;
+}
+
+/* .course-img::before {
+	content: attr(sale);
+	background-color: #E74040;
+	border: 1px solid #E74040;
+	border-radius: 0px 10px;
+	position: absolute;
+	z-index: -1;
+	width: 51px;
+	height: 24px;
+} */
+
 /* i-pad */
 @media screen and (max-width: 1280px) and (min-width: 768px) {
 
@@ -322,6 +439,10 @@ h5 {
 
 	.container {
 		width: 92%;
+	}
+
+	.header {
+		position: fixed;
 	}
 
 	.section1 {

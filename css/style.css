@@ -421,7 +421,7 @@ h5 {
 
 /* section5 */
 .section5 .container {
-	padding: 146px 2px
+	padding: 146px 2px 0;
 }
 
 .teacher1 {
@@ -464,6 +464,47 @@ h5 {
 .designer {
 	padding: 118px;
 	font-size: 14px;
+}
+
+/* section6 */
+
+.section6 .container {
+	padding: 143px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.subscribe {
+	display: flex;
+	padding: 80px 0;
+	
+}
+
+.subscribe input {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	width: 688px;
+	height: 58px;
+	padding: 15px 551px 15px 58px;
+	border-radius: 5px;
+	border: 1px solid #E6E6E6;
+	background: #F9F9F9;
+	
+}
+
+.btn-subscribe {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	width: 117px;
+	height: 58px;
+	padding: 15px 22.5px 15px 22.5px;
+	margin: 0 -79px;
+	border-radius: 0px 5px 5px 0px;
+	border: 1px solid #E6E6E6;
+	background-color: #23A6F0;
 }
 
 /* i-pad */
@@ -611,7 +652,7 @@ h5 {
 /* seciton4 */
 
 .section4 .container {
-	padding: 14.688vw 0.156vw 0;
+	padding: 0;
 }
 .course-list {
 	padding: 8.828vw 0;
@@ -694,7 +735,7 @@ h5 {
 
 /* section5 */
 .section5 .container {
-	padding: 11.406vw 0.156vw;
+	padding: 0;
 }
 
 .teacher1 {
@@ -731,6 +772,35 @@ h5 {
 .designer {
 	padding: 9.219vw;
 	font-size: 1.094vw;
+}
+
+/* section6 */
+
+.section6 .container {
+	padding: 0 11.172vw;
+}
+
+.subscribe {
+	padding: 6.25vw 3.906vw;
+}
+
+.subscribe input {
+	font-size: 1.094vw;
+	width: 53.75vw;
+	height: 4.531vw;
+	padding: 1.172vw 43.047vw 1.172vw 4.531vw;
+	border-radius: 0.391vw;
+	border: 0.078vw solid #E6E6E6;
+}
+
+.btn-subscribe {
+	font-size: 1.094vw;
+	width: 9.141vw;
+	height: 4.531vw;
+	padding: 1.172vw 1.758vw 1.172vw 1.758vw;
+	margin: 0 -6.172vw;
+	border-radius: 0 0.391vw;
+	border: 0.078vw solid #E6E6E6;
 }
 }
 
@@ -883,7 +953,7 @@ h5 {
 
 	.section3-second-column {
 		width: 127.667vw;
-    padding: 19.6vw 0;
+    padding: 27.6vw 0;
 	}
 
 	.line3 {
@@ -898,7 +968,7 @@ h5 {
 /* seciton4 */
 
 .section4 .container {
-	padding: 15.133vw 0.533vw 0;
+	padding: 0;
 }
 .course-list {
 	padding: 15.133vw 0;
@@ -1014,6 +1084,35 @@ h5 {
 .designer {
 	padding: 7.219vw;
   font-size: 2.795vw;
+}
+
+/* section6 */
+
+.section6 .container {
+	padding: 0 11.172vw;
+}
+
+.subscribe {
+	padding: 6.25vw 3.906vw;
+}
+
+.subscribe input {
+	font-size: 2.094vw;
+	width: 57.75vw;
+	height: 5.531vw;
+	padding: 1.172vw 41.047vw 1.172vw 4.531vw;
+	border-radius: 0.391vw;
+	border: 0.078vw solid #E6E6E6;
+}
+
+.btn-subscribe {
+	font-size: 2.094vw;
+	width: 12.141vw;
+	height: 5.531vw;
+	padding: 1.172vw 2.758vw 1.172vw 0.758vw;
+	margin: 0 -4.172vw;
+	border-radius: 0 0.391vw;
+	border: 0.078vw solid #E6E6E6;
 }
 }
 

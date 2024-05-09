@@ -318,16 +318,12 @@ h5 {
 /* seciton4 */
 
 .section4 .container {
-	padding: 188px 2px;
+	padding: 188px 2px 0;
 }
 .course-list {
 	display: flex;
 	padding: 113px 0;
 	justify-content: space-between;
-}
-
-.course-list li {
-	
 }
 
 .course-img {
@@ -337,6 +333,7 @@ h5 {
 }
 
 .sale {
+	font-size: 14px;
 	background-color: #E74040;
 	border: 1px solid #E74040;
 	border-radius: 5px;
@@ -402,6 +399,7 @@ h5 {
 }
 
 .course-content {
+	width: 232px;
 	padding: 23px;
 }
 
@@ -421,16 +419,52 @@ h5 {
 	justify-content: space-between;
 }
 
-/* .course-img::before {
-	content: attr(sale);
-	background-color: #E74040;
-	border: 1px solid #E74040;
-	border-radius: 0px 10px;
-	position: absolute;
-	z-index: -1;
-	width: 51px;
-	height: 24px;
-} */
+/* section5 */
+.section5 .container {
+	padding: 146px 2px
+}
+
+.teacher1 {
+	width: 128px;
+	height: 128px;    
+	margin: -2px 109px;
+	border-radius: 200px;
+}
+
+.teacher-content {
+	width: 363px;
+	padding: 27px 23px;
+}
+
+.teacher-text {
+	color: #000;
+}
+
+.teacher-list {
+	width: 508px;
+	padding: 9px 79px;
+}
+
+.rating {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+	padding: 11px 102px 0px 89px;
+}
+
+.star {
+	width: 19px;
+	height: 19px;
+}
+
+.regina {
+	padding: 18px 99px 14px;
+}
+
+.designer {
+	padding: 118px;
+	font-size: 14px;
+}
 
 /* i-pad */
 @media screen and (max-width: 1280px) and (min-width: 768px) {
@@ -491,7 +525,7 @@ h5 {
 	/* section2 */
 
 	.section2 .container {
-		padding: 111px 5px;
+		padding: 8.672vw 0.391vw;
 	}
 	
 	.common-h6 {
@@ -573,7 +607,131 @@ h5 {
 .problems {
 	padding-bottom: 2.734vw;
 }
-	
+
+/* seciton4 */
+
+.section4 .container {
+	padding: 14.688vw 0.156vw 0;
+}
+.course-list {
+	padding: 8.828vw 0;
+}
+
+.course-img {
+	width: 18.594vw;
+}
+
+.sale {
+	font-size: 1.094vw;
+	width: 3.984vw;
+	height: 1.875vw;
+	margin: 1.563vw 0;
+	padding: 0.156vw;
+	left: 6%;
+}
+
+.icon-card {
+	width: 10.938vw;
+	margin: -5.313vw 0;
+	left: 8%;
+}
+
+.hand-sale {
+	left: 29%;
+}
+
+.hand-icon {
+	left: 31%;
+}
+
+.note-sale {
+	left: 55%;
+}
+
+.note-icon {
+	left: 56%;
+}
+
+.woman-sale {
+	left: 79%;
+}
+
+.woman-icon {
+	left: 81%;
+}
+
+.course-icon {
+	width: 3.125vw;
+	height: 3.125vw;
+  padding: 0.781vw;
+  border-radius: 7.813vw;
+}
+
+.course-btn {
+	border-radius: 813vw;
+	padding: 1.172vw 1.734vw;
+  margin: 1.953vw 0px;
+}
+
+.course-content {
+	width: 18.125vw;
+	padding: 1.797vw;
+}
+
+.graphic-course {
+	padding: 1.406vw 0 0.938vw;
+}
+
+.sales-15 {
+	padding: 0.859vw 2.188vw 1.641vw;
+}
+
+.course-flex {
+	padding: 2.734vw 1.797vw 0;
+	font-size: 0.938vw;
+}
+
+
+/* section5 */
+.section5 .container {
+	padding: 11.406vw 0.156vw;
+}
+
+.teacher1 {
+	width: 10vw;
+	height: 10vw;    
+	margin: -0.156vw 8.516vw;
+	border-radius: 15.625vw;
+}
+
+.teacher-content {
+	width: 28.359vw;
+	padding: 2.109vw 1.797vw;
+}
+
+.teacher-list {
+	width: 39.688vw;
+	padding: 0.703vw 6.172vw;
+}
+
+.rating {
+	gap: 5px;
+	padding: 0.859vw 7.969vw 0 6.953vw;
+}
+
+.star {
+	width: 1.484vw;
+	height: 1.484vw;
+}
+
+.regina {
+	padding: 1.406vw 7.734vw 1.094vw;
+}
+
+.designer {
+	padding: 9.219vw;
+	font-size: 1.094vw;
+}
 }
 
 /* mobile */
@@ -658,15 +816,15 @@ h5 {
 	}
 	
 	.common-h6 {
-		font-size: 3.733vw;
+		font-size: 1.733vw;
 	}
 	.common-h2 {
-		font-size: 4.667vw;
+		font-size: 2.667vw;
 		padding: 2.667vw 0;
 	}
 	
 	.common-p {
-		font-size: 2.733vw;
+		font-size: 1.733vw;
 	}
 	
 	.flex {
@@ -687,7 +845,7 @@ h5 {
 	}
 	
 	h5 {
-		font-size: 4.267vw;
+		font-size: 3.267vw;
 		padding: 3.797vw 0;
 	}
 	
@@ -736,5 +894,126 @@ h5 {
 	.problems {
 		padding-bottom: .333vw
 	}
+
+/* seciton4 */
+
+.section4 .container {
+	padding: 15.133vw 0.533vw 0;
+}
+.course-list {
+	padding: 15.133vw 0;
+	flex-wrap: wrap;
+	gap: 5.333vw;
+}
+
+.course-list li {
+	width: 44.594vw;
+}
+
+.course-img {
+	width: 63.467vw;
+}
+
+.sale {
+	font-size: 2.733vw;
+	width: 10.6vw;
+	height: 4.4vw;
+	margin: 5.333vw 0;
+	padding: 0.533vw;
+	left: 7%;
+}
+
+.icon-card {
+	width: 34.333vw;
+	left: 8%;
+	margin: -15.133vw 0;
+}
+
+.course-icon {
+	width: 7.667vw;
+	height: 7.667vw;
+  padding: 2.667vw;
+  border-radius: 26.667vw;
+}
+
+.hand-sale {
+	left: 57%;
+}
+
+.hand-icon {
+	left: 59%;
+}
+
+.woman-sale {
+	left: 57%;
+}
+
+.woman-icon {
+	left: 59%;
+}
+
+.course-btn {
+	border-radius: 26.667vw;
+	padding: 3vw 5.333vw;
+	margin: 2.667vw 21px;
+}
+
+.course-content {
+	width: 41.867vw;
+	padding: 3.133vw 0vw;
+}
+
+.graphic-course {
+	padding: 4.8vw 0 3.2vw;
+}
+
+.sales-15 {
+	padding: 2.933vw 7.467vw 5.6vw;
+}
+
+.course-flex {
+	padding: 3.333vw 0;
+	font-size: 2.2vw;
+}
+
+/* section5 */
+.section5 .container {
+	padding: 0 0.156vw;
+}
+
+.teacher1 {
+	width: 14vw;
+	height: 14vw;    
+	margin: -0.156vw 8.516vw;
+	border-radius: 15.625vw;
+}
+
+.teacher-content {
+	width: 33.359vw;
+	padding: 3.109vw 1.797vw;
+}
+
+.teacher-list {
+	padding: 0.703vw 6.172vw;
+}
+
+.rating {
+	gap: 1.333vw;
+	padding: 1.859vw 4.969vw;
+}
+
+.star {
+	width: 3.484vw;
+	height: 3.484vw;
+}
+
+.regina {
+	padding: 1.406vw 3.734vw;
+}
+
+.designer {
+	padding: 7.219vw;
+  font-size: 2.795vw;
+}
 }
 

@@ -478,18 +478,19 @@ h5 {
 }
 
 .subscribe {
-	display: flex;
+	margin: auto;
+	max-width: 688px;;
 	padding: 80px 0;
-	
+	position: relative;
 }
 
 .subscribe input {
 	font-family: 'Montserrat';
 	font-size: 14px;
-	width: 688px;
-	height: 58px;
-	padding: 15px 551px 15px 58px;
-	border-radius: 5px;
+	float: left;
+	width: 83%;
+	padding: 19px;
+	border-radius: 5px 0 0 5px;
 	border: 1px solid #E6E6E6;
 	background: #F9F9F9;
 	
@@ -498,13 +499,64 @@ h5 {
 .btn-subscribe {
 	font-family: 'Montserrat';
 	font-size: 14px;
-	width: 117px;
-	height: 58px;
-	padding: 15px 22.5px 15px 22.5px;
-	margin: 0 -79px;
+	float: right;
+	width: 17%;
+	padding: 19px 22.5px;
 	border-radius: 0px 5px 5px 0px;
 	border: 1px solid #E6E6E6;
 	background-color: #23A6F0;
+}
+
+/* Footer */
+
+.categories {
+	display: flex;
+	gap: 30px;
+	padding: 83px 196px 87px;
+	justify-content: space-between;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.touch {
+	width: 241px;
+}
+
+.touch p {
+	padding: 27px 0 23px;
+}
+
+.touch ul {
+	display: flex;
+	gap: 20px;
+}
+
+.social-media {
+	width: 25px;
+	height: 25px;
+}
+
+.info {
+	width: 241px;
+}
+
+.info ul {
+	padding: 16px 0;
+}
+
+.info li {
+	color: #737373;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.footer-text {
+	color: #737373;
+	font-size: 12px;
+	text-align: center;
+	padding: 0 0 0  37%;
 }
 
 /* i-pad */
@@ -781,26 +833,20 @@ h5 {
 }
 
 .subscribe {
-	padding: 6.25vw 3.906vw;
+	max-width: 53.75vw;
+	padding: 6.25vw 0;
 }
 
 .subscribe input {
 	font-size: 1.094vw;
-	width: 53.75vw;
-	height: 4.531vw;
-	padding: 1.172vw 43.047vw 1.172vw 4.531vw;
-	border-radius: 0.391vw;
-	border: 0.078vw solid #E6E6E6;
+	width: 83%;
+	padding: 1.484vw;
 }
 
 .btn-subscribe {
 	font-size: 1.094vw;
-	width: 9.141vw;
-	height: 4.531vw;
-	padding: 1.172vw 1.758vw 1.172vw 1.758vw;
-	margin: 0 -6.172vw;
-	border-radius: 0 0.391vw;
-	border: 0.078vw solid #E6E6E6;
+	width: 17%;
+	padding: 1.484vw 1.758vw;
 }
 }
 
@@ -1093,26 +1139,20 @@ h5 {
 }
 
 .subscribe {
-	padding: 6.25vw 3.906vw;
+	max-width: 53.75vw;
+	padding: 6.25vw 0;
 }
 
 .subscribe input {
 	font-size: 2.094vw;
-	width: 57.75vw;
-	height: 5.531vw;
-	padding: 1.172vw 41.047vw 1.172vw 4.531vw;
-	border-radius: 0.391vw;
-	border: 0.078vw solid #E6E6E6;
+	width: 74%;
+	padding: 1.484vw;
 }
 
 .btn-subscribe {
 	font-size: 2.094vw;
-	width: 12.141vw;
-	height: 5.531vw;
-	padding: 1.172vw 2.758vw 1.172vw 0.758vw;
-	margin: 0 -4.172vw;
-	border-radius: 0 0.391vw;
-	border: 0.078vw solid #E6E6E6;
+	width: 26%;
+	padding: 1.484vw 1.758vw;
 }
 }
 

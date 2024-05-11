@@ -57,16 +57,17 @@ button {
   background-size: cover;
 }
 
-.header {
-  position: fixed;
-  width: 100%;
-}
-
 .header .container {
   display: flex;
   justify-content: space-between;
   padding: 18px 0;
   align-items: center;
+}
+
+.header {
+  position: fixed;
+  width: 73%;
+  max-width: 1455px;
 }
 
 h1 {
@@ -130,7 +131,9 @@ h1 {
 }
 
 .header-button {
-  padding: 18px 15%;
+	font-family: 'Montserrat';
+	font-size: 14px;
+  padding: 18px 13%;
   display: block;
 }
 
@@ -229,7 +232,6 @@ h1 {
   padding: 22px 23px 22px 19px;
   gap: 10px;
   border-radius: 10px 10px 10px 10px;
-  opacity: 0px;
 }
 
 .cool,
@@ -331,9 +333,12 @@ h5 {
   justify-content: space-between;
 }
 
+.course-list li {
+  position: relative;
+}
+
 .course-img {
   width: 238px;
-  position: relative;
   z-index: 99;
 }
 
@@ -349,8 +354,7 @@ h5 {
   height: 24px;
   margin: 20px 0;
   padding: 2px;
-  left: 15%;
-  align-items: center;
+  left: 8%;
   text-align: center;
 }
 
@@ -360,7 +364,7 @@ h5 {
   width: 140px;
   position: absolute;
   z-index: 99;
-  left: 17%;
+  left: 20%;
   margin: -68px 0;
 }
 
@@ -371,30 +375,6 @@ h5 {
   background: #ffffff;
   padding: 10px;
   border-radius: 100px;
-}
-
-.hand-sale {
-  left: 33%;
-}
-
-.hand-icon {
-  left: 35%;
-}
-
-.note-sale {
-  left: 52%;
-}
-
-.note-icon {
-  left: 53%;
-}
-
-.woman-sale {
-  left: 70%;
-}
-
-.woman-icon {
-  left: 72%;
 }
 
 .course-btn {
@@ -485,7 +465,6 @@ h5 {
 .subscribe {
   margin: auto;
   max-width: 688px;
-  ;
   padding: 80px 0;
   position: relative;
 }
@@ -574,8 +553,13 @@ h3 {
     width: 92%;
   }
 
+	.header .container {
+		padding: 1.406vw 0;
+	}
+
   .header {
     position: fixed;
+		max-width: 112.734vw;
   }
 
   .section1 {
@@ -735,30 +719,6 @@ h3 {
     width: 10.938vw;
     margin: -5.313vw 0;
     left: 8%;
-  }
-
-  .hand-sale {
-    left: 29%;
-  }
-
-  .hand-icon {
-    left: 31%;
-  }
-
-  .note-sale {
-    left: 55%;
-  }
-
-  .note-icon {
-    left: 56%;
-  }
-
-  .woman-sale {
-    left: 79%;
-  }
-
-  .woman-icon {
-    left: 81%;
   }
 
   .course-icon {
@@ -921,12 +881,13 @@ h3 {
     width: 43%;
   }
 
-  .header {
-    position: relative;
-  }
-
   .header .container {
     padding: 1.6vw 0;
+  }
+
+  .header {
+    position: relative;
+		max-width: 112.734vw;
   }
 
   .header-content {
@@ -1109,22 +1070,6 @@ h3 {
     height: 7.667vw;
     padding: 2.667vw;
     border-radius: 26.667vw;
-  }
-
-  .hand-sale {
-    left: 57%;
-  }
-
-  .hand-icon {
-    left: 59%;
-  }
-
-  .woman-sale {
-    left: 57%;
-  }
-
-  .woman-icon {
-    left: 59%;
   }
 
   .course-btn {

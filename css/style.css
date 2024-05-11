@@ -557,7 +557,6 @@ h3 {
 	}
 
   .header {
-    position: fixed;
 		max-width: 150vw;
   }
 
@@ -571,7 +570,7 @@ h3 {
   }
 
   .nav-bar {
-    width: 45%;
+    width: 25%;
   }
 
   .nav-bar a {
@@ -871,10 +870,6 @@ h3 {
     width: 96%;
   }
 
-  .section1 {
-    background-position: 100% 100%;
-  }
-
   h1 {
     font-size: 6.4vw;
     width: 43%;
@@ -886,6 +881,10 @@ h3 {
 
   .header {
     position: relative;
+  }
+
+  .section1 {
+    background-position: 100% 100%;
   }
 
   .header-content {
@@ -907,7 +906,7 @@ h3 {
   }
 
   .nav-bar {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     top: 8%;
     transition: 250ms all ease-in-out;
